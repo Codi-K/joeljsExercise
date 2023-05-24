@@ -32,3 +32,33 @@ function fullName(){
 }
 
 fullName()
+
+
+// Question 2
+
+let firstName = "Codi";
+let lastName = "Kader";
+let age = 22;
+
+let subjects = [
+    "maths", 
+    "Bio",
+    "Business",
+    "Geography",
+    "Hospitality"
+];
+
+let address = [
+    "Imam Haron Road",
+    314,
+    "Landowne",
+    "Cape Town",
+    "South Africa"
+];
+
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(subjects);
+console.log(address);
+
