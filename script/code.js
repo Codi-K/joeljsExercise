@@ -62,3 +62,21 @@ console.log(age);
 console.log(subjects);
 console.log(address);
 
+// Question 3
+
+function btnResult(){
+    let numb1 = +document.querySelector("#numb1").value
+    let operator = document.querySelector("#operator").value
+    let numb2 = +document.querySelector("#numb2").value
+    let result = document.querySelector("#ds-answer")
+
+    if (operator == "+"){
+         result.innerText = numb1 + numb2;
+    }else if (operator == "-"){
+         result.innerText = numb1 - numb2;
+    } else if (operator == "*"){
+         result.innerText = numb1 * numb2;
+    }else if (operator == "/"){
+         result.innerText = numb1 / numb2;
+    }
+}

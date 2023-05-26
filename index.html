@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://cdn.betterttv.net/emote/5603731ce5fc5eff1de93229/1x.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="https://cdn.betterttv.net/emote/5603731ce5fc5eff1de93229/1x.webp"
+        type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>Joel Js Exercises</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="screen1">
+            <label for="number1" class="numb2">Number 1 :</label>
+            <input type="text" name="number1" id="numb1">
+        </div>
+        <div class="screen2">
+            <label class="oper" for="ops">Operator :</label>
+            <input type="text" name="ops" id="operator">
+        </div>
+        <div class="screen3">
+            <label for="number2" class="numb2">Number 2 :</label>
+            <input type="text" name="number2" id="numb2">
+        </div>
+        <div class="answer">
+            <div>
+                <h4>Answer</h4>
+            </div>
+            <div>
+            <p id="ds-answer"></p>
+            </div>
+        </div>
+        <div class="button">
+            <button id="display" onclick="btnResult()">Display</button>
+        </div>
+        
+    </div>
+
     <!-- script  -->
     <script src="./script/code.js"></script>
 </body>
+
 </html>
