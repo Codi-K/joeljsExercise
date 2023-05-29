@@ -86,14 +86,21 @@ function btnResult(){
 // i learnt this method from freecodecamp.com
 
 function reverseString(str) {
-     let subject = ""; /* this is where the string i create will be hosted  */
-    for (let string = str.length -1; string >= 0; string--){ /* the for loop i created will start with last letter in the string which is g. String being greater or equal to 0, the loop will carry on */
-        subject += str [string]; /* how to get the string into a reverse*/
+     let subject = ""; 
+    for (let string = str.length -1; string >= 0; string--){
+        subject += str [string]; 
     }
-    return subject; /*the string will be reversed*/ 
+    return subject; 
 }
 
 console.log(reverseString('programming')); /* shows on the console */
+
+// console.dir(new String()); 
+// answer from joel
+
+let subject = "programming"; 
+
+console.log(subject.split("").reverse().join(""));
 
 
 // Question 5 
