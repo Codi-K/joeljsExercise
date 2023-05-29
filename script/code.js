@@ -94,3 +94,44 @@ function reverseString(str) {
 }
 
 console.log(reverseString('programming')); /* shows on the console */
+
+
+// Question 5 
+
+
+let namesAnddobs = [
+    {
+        name: "Codi",
+        dob: 2000-03-08
+    },
+    {
+        name: "Keeno",
+        dob: 2002-06-04
+    },
+    {
+        name: "Masood",
+        dob: 2003-09-16
+    },
+    {
+        name: "Uthmaan",
+        dob: 2000-06-21
+    },
+    {
+        name: "Imtiyaaz",
+        dob: 1999-12-01
+    }
+]
+
+console.log(namesAnddobs[2].name);
+
+function age1(dob) {
+    let diff_ms = Date.now() - dob.getTime();
+    let age_dt = new Date(diff_ms);
+
+    return Math.abs(age_dt.getFullYear() - 2003);
+    
+}
+
+age1(new Date(2003-09-16));
+
+console.log(age1(new Date(2003-09-16)));
